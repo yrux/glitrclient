@@ -1,26 +1,15 @@
+# Glitir Client
+
 Platform we have used is Next.js it is a react js framework for dynamic websites.
 
 If you do not have Node.js installed, install it from here. You will need Node.js version 10.13 or later.
 
-clone the github code
+## Installation
 
-package.json 
+Clone the code from the github repo and run
 
-{
-  "name": "learn-starter",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
-  },
-  "dependencies": {
-    "framer-motion": "^2.9.1",
-    "next": "9.5.3",
-    "react": "16.13.1",
-    "react-dom": "16.13.1"
-  }
-}
+```bash
+npm install
 
-and run [npm install]
+npm run dev
+```
